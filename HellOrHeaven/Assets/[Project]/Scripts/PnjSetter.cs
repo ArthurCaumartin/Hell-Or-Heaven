@@ -10,6 +10,7 @@ public class PnjSetter : MonoBehaviour
     [SerializeField] private SpriteRenderer[] _eyesRenderer;
     [SerializeField] private SpriteRenderer _mouthRenderer;
     [SerializeField] private SpriteRenderer _hairRenderer;
+    [SerializeField] private SpriteRenderer _bodyRenderer;
 
 
     private void Start()
@@ -25,5 +26,6 @@ public class PnjSetter : MonoBehaviour
 
         _mouthRenderer.sprite = _pnjData.mouthsSprites.GetRandom();
         _hairRenderer.sprite = _pnjData.hairSprites.GetRandom();
+        _bodyRenderer.sprite = _pnjData.bodysSprites.GetRandom();
     }
 }

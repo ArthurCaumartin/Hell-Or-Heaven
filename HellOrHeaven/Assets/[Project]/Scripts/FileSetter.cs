@@ -49,9 +49,3 @@ public class FileSetter : MonoBehaviour
         _useIaImage.enabled = Random.value > .5f;
     }
 }
-
-
-// public class MouseEnabler : MonoBehaviour
-// {
-//     [SerializeField] private 
-// }

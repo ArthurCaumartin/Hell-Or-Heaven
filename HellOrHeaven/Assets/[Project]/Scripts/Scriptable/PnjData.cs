@@ -7,4 +7,5 @@ public class PnjData : ScriptableObject
     public List<Sprite> eyesSprites;
     public List<Sprite> mouthsSprites;
     public List<Sprite> hairSprites;
+    public List<Sprite> bodysSprites;
 }
