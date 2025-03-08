@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169026139aff03e4fb655e6b979fd295, type: 3}
+  m_Name: FileData
+  m_EditorClassIdentifier: 
+  firstNames:
+  - Arthur
+  - Christopher
+  lastNames:
+  - Caumartin
+  - Lourdel
+  matricules:
+  - XPTDR
+  - MDRRR
+  competence:
+  - Sais faire des bon cookies
+  - Peut vomir un repas sous sa forme original
+  succes:
+  - A pris la place de Megatron durant une semaine
+  - "A Realis\xE9 un saut de la fois. Trop fort !"
+  prides:
+  - Beau comme un dieu
+  - A detruit babylone
+  regrets:
+  - Aurai plus faire mieux que des pattes sauce tomates.
+  - "A rat\xE9 un truc"
